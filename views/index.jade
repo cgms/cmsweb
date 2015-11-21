@@ -11,7 +11,7 @@ block content
 						span.icon-bar
 						span.icon-bar
 						span.icon-bar
-					a.navbar-brand(href='#page-top') Start Bootstrap
+					a.navbar-brand(href='#page-top') Masterton-Smith
 				// Collect the nav links, forms, and other content for toggling
 				#bs-example-navbar-collapse-1.collapse.navbar-collapse
 					ul.nav.navbar-nav.navbar-right
@@ -30,7 +30,6 @@ block content
 			.container
 				.row
 					.col-lg-12
-						img.img-responsive(src='bootstrap/img/profile.png', alt='')
 						.intro-text
 							span.name Thinking out loud
 							//hr.star-light
@@ -44,7 +43,6 @@ block content
 				.row
 					.col-lg-4.col-lg-offset-2
 						p
-							| Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the complete source files including HTML, CSS, and JavaScript as well as optional LESS stylesheets for easy customization.
 		// Contact 
 		//Portfolio
 		section#portfolio
@@ -52,92 +50,30 @@ block content
 				.row
 					.col-lg-12.text-center
 						h2 Portfolio
-						hr.star-primary
+						br
 				.row
 					.col-sm-4.portfolio-item
 						a.portfolio-link(href='#portfolioModal1', data-toggle='modal')
 							.caption
 								.caption-content
 									i.fa.fa-search-plus.fa-3x
-							img.img-responsive(src='img/portfolio/cabin.png', alt='')
+							img.img-responsive(src='images/portfolio/hk.jpg', alt='')
 					.col-sm-4.portfolio-item
 						a.portfolio-link(href='#portfolioModal2', data-toggle='modal')
 							.caption
 								.caption-content
 									i.fa.fa-search-plus.fa-3x
-							img.img-responsive(src='img/portfolio/cake.png', alt='')
+							img.img-responsive(src='images/portfolio/gcanyon.jpg', alt='')
 					.col-sm-4.portfolio-item
 						a.portfolio-link(href='#portfolioModal3', data-toggle='modal')
 							.caption
 								.caption-content
 									i.fa.fa-search-plus.fa-3x
-							img.img-responsive(src='img/portfolio/circus.png', alt='')
-					.col-sm-4.portfolio-item
-						a.portfolio-link(href='#portfolioModal4', data-toggle='modal')
-							.caption
-								.caption-content
-									i.fa.fa-search-plus.fa-3x
-							img.img-responsive(src='img/portfolio/game.png', alt='')
-					.col-sm-4.portfolio-item
-						a.portfolio-link(href='#portfolioModal5', data-toggle='modal')
-							.caption
-								.caption-content
-									i.fa.fa-search-plus.fa-3x
-							img.img-responsive(src='img/portfolio/safe.png', alt='')
-					.col-sm-4.portfolio-item
-						a.portfolio-link(href='#portfolioModal6', data-toggle='modal')
-							.caption
-								.caption-content
-									i.fa.fa-search-plus.fa-3x
-							img.img-responsive(src='img/portfolio/submarine.png', alt='')
-		section#contact
+							img.img-responsive(src='images/portfolio/cannon_beach.jpg', alt='')
+		section#contact.success
 			.container
 				.row
-					.col-lg-12.text-center
-						h2 Contact Me
-						hr.star-primary
-				.row
 					.col-lg-8.col-lg-offset-2
-						// To configure the contact form email address, go to mail/contact_me.php and update the email address in the PHP file on line 19.
-						// The form should work on most web servers, but if the form is not working you may need to configure your web server differently.
-						form#contactForm(name='sentMessage', novalidate='')
-							.row.control-group
-								.form-group.col-xs-12.floating-label-form-group.controls
-									label Name
-									input#name.form-control(type='text', placeholder='Name', required='', data-validation-required-message='Please enter your name.')
-									p.help-block.text-danger
-							.row.control-group
-								.form-group.col-xs-12.floating-label-form-group.controls
-									label Email Address
-									input#email.form-control(type='email', placeholder='Email Address', required='', data-validation-required-message='Please enter your email address.')
-									p.help-block.text-danger
-							.row.control-group
-								.form-group.col-xs-12.floating-label-form-group.controls
-									label Phone Number
-									input#phone.form-control(type='tel', placeholder='Phone Number', required='', data-validation-required-message='Please enter your phone number.')
-									p.help-block.text-danger
-							.row.control-group
-								.form-group.col-xs-12.floating-label-form-group.controls
-									label Message
-									textarea#message.form-control(rows='5', placeholder='Message', required='', data-validation-required-message='Please enter a message.')
-									p.help-block.text-danger
-							br
-							#success
-							.row
-								.form-group.col-xs-12
-									button.btn.btn-success.btn-lg(type='submit') Send
-		// Footer
-		footer.text-center
-			.footer-above
-				.container
-					.row
-						.footer-col.col-md-4
-							h3 Location
-							p
-								| 3481 Melrose Place
-								br
-								| Beverly Hills, CA 90210
-						.footer-col.col-md-4
 							h3 Around the Web
 							ul.list-inline
 								li
@@ -155,6 +91,17 @@ block content
 								li
 									a.btn-social.btn-outline(href='#')
 										i.fa.fa-fw.fa-dribbble
+		// Footer
+		footer.text-center
+			.footer-above
+				.container
+					.row
+						.footer-col.col-md-4
+							h3 Location
+							p
+								| 3481 Melrose Place
+								br
+								| Beverly Hills, CA 90210
 						.footer-col.col-md-4
 							h3 About Freelancer
 							p
@@ -182,7 +129,7 @@ block content
 							.modal-body
 								h2 Project Title
 								hr.star-primary
-								img.img-responsive.img-centered(src='img/portfolio/cabin.png', alt='')
+								img.img-responsive.img-centered(src='img/portfolio/hk.png', alt='')
 								p
 									| Use this area of the page to describe your project. The icon above is part of a free icon set by 
 									a(href='https://sellfy.com/p/8Q9P/jV3VZ/') Flat Icons
