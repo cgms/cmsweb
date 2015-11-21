@@ -1,0 +1,57 @@
+extends layout
+block content
+	.navbar.navbar-default.navbar-fixed-top(role='navigation')
+		.container
+			.navbar-header
+				button.navbar-toggle(type='button', data-toggle='collapse', data-target='.navbar-collapse')
+					span.sr-only Toggle Navigation
+					span.icon-bar
+					span.icon-bar
+					span.icon-bar
+				a.navbar-brand(href="/") Masterton-Smith
+			.navbar-collapse.collapse.navbar-right
+				ul.nav.navbar-nav
+					li
+						a(href="/") Home
+					li
+						a(href="about") About
+					li
+						a(href="http://cmsphoto.co.uk") CMS Photography
+					ul
+						li
+							a(href="http://blog.cmsphoto.co.uk") Blog
+						li
+							a(href="Portfolio") Portfolio
+						li
+							a(href="cam") Webcam
+	#blue
+		.container
+			.row
+				h3 Endymion Road
+	.container
+		.row
+			.col-lg-12
+				h2 This is a header
+				p.lead Lead
+				p Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam commodo consequat leo, non auctor augue gravida nec. Curabitur quis ullamcorper nisl. Pellentesque consectetur finibus efficitur. Nullam est tellus, sagittis a iaculis vitae, mollis vel dui. Vivamus vel purus nibh. Aenean at lectus non dui mattis tincidunt nec id magna. Integer fringilla vestibulum dolor sit amet vestibulum. Sed tristique, enim et venenatis faucibus, urna lectus congue ex, id congue neque elit sed erat. Maecenas ut diam magna. Integer suscipit neque vitae odio vulputate, et vehicula nisi efficitur.
+				Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam commodo consequat leo, non auctor augue gravida nec. Curabitur quis ullamcorper nisl. Pellentesque consectetur finibus efficitur. Nullam est tellus, sagittis a iaculis vitae, mollis vel dui. Vivamus vel purus nibh. Aenean at lectus non dui mattis tincidunt nec id magna. Integer fringilla vestibulum dolor sit amet vestibulum. Sed tristique, enim et venenatis faucibus, urna lectus congue ex, id congue neque elit sed erat. Maecenas ut diam magna. Integer suscipit neque vitae odio vulputate, et vehicula nisi efficitur.
+
+		.row
+			.col-lg-12
+				iframe(id="forecast_embed" type="text/html" frameborder="0" height="800" width="100%" src="http://forecast.io/embed/#lat=51.764709&lon=-0.21772&name=Endymion Road&color=#607EB5&units=uk")
+	.footerwrap
+		.container
+			.row
+				.col-lg-12
+					h4 Social
+						.hline-w
+						p
+							a(href='https://twitter.com/chrism_s')
+								i.fa.fa-twitter
+							a(href='https://instagram.com/chrism_s')
+								i.fa.fa-instagram
+							a(href='http://blog.cmsphoto.co.uk')
+								i.fa.fa-tumblr
+							a(href='https://uk.linkedin.com/in/chrisms')
+								i.fa.fa-linkedin
+							
